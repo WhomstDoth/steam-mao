@@ -1,20 +1,21 @@
 <head>
   <style>
+     /* menu stuff -- Idk if I'll keep */
     .menu {
     display: flex;
     justify-content: space-around;
   }
   
   .menu > a {
-    color: black;
+    color: hsl(29, 52%, 19%);
     font-family: sans-serif;
     font-size: 24px;
     text-decoration: none;
   }
   
   .menu > a:hover {
-    color: hsl(160, 70%, 50%);
-    border-bottom: 2px solid hsl(160, 70%, 50%);
+    color: hsl(29, 30%, 44%);
+    border-bottom: 2px solid hsl(29, 30%, 44%);
   }
   
   @media (max-width: 400px) {
@@ -26,19 +27,27 @@
     
     body{ 
     background-color:#b8b2a9;
-      
-      
     }
+    
   </style>
   <nav class="menu">
   <a href="#">World Map</a>
   <a href="#">Towns</a>
-  <a href="#">videos</a>
-  <a href="#">texts</a>
+  <a href="#">Characters</a>
+    
 </nav>
 </head>
 <body>
-  <img src="IMG_1289.jpe" alt="">
-  <div class="pin" style="left:">
-  </div>
+  <style>
+    /* map properties */
+    .map {
+      justify-content: space-around;
+      justify-content: center;
+      
+    }
+  </style>
+    <img class="map" src="" alt="Map">
+    <div class="pin" style="left:">
+    </div>
+
 </body>
